@@ -1,0 +1,52 @@
+body {
+      background-color: rgb(216, 170, 238);
+    }
+
+    .c1 {
+      background-color: rgb(180, 104, 228);
+      width: 500px;
+      height: 7cm;
+      padding: 100px;
+      border: white solid;
+      border-radius: 0.3cm;
+      margin-top: 120px;
+    }
+    .c1:hover {
+      transform: scale(1.2);
+      box-shadow: 0 0 30px #000206;
+    }
+
+    input[type="text"] {
+      border-radius: 0.1cm;
+      height: 0.9cm;
+      margin: 10px;
+      text-align: center;
+      border: white;
+    }
+    input:hover {
+      border: purple solid;
+      border-radius: 0.2cm;
+    }
+    button {
+      height: 0.8cm;
+      width: 100px;
+      margin: 10px;
+      border: white solid;
+      border-radius: 0.2cm;
+    }
+    button:hover {
+      background-color: rgb(1, 5, 9);
+      color: white;
+      transform: scale(1.2);
+      box-shadow: 0 0 30px #000206;
+    }
+    .box {
+      background-color: white;
+      padding: 8px;
+      border-radius: 8px;
+      color: black;
+      font-weight:bold;
+      width: fit-content;
+      margin: 10px auto;
+      text-align: center;
+    }
